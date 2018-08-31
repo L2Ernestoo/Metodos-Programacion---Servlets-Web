@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/08/2018, 01:12:58 AM
+    Author     : jorge
+*/
+
+
+ body{
+            margin: 0 auto;
+            width: 100%;
+            font-family: 'Nunito', sans-serif;
+            background-color: #2A4042 ;
+        }
+        #titulo{
+            background: #4A567E;
+            text-align: center;
+            max-width: 100%;
+            color: white;
+            font-size: 25px;
+            margin-bottom: 10px;
+            border-radius: 5px 5px 0 0;
+            padding: 12px;
+            border-top: none;
+            font-family: 'Nunito', sans-serif;
+        }
+        h2{
+            background: #4A567E;
+            text-align: center;
+            max-width: 100%;
+            color: white;
+            font-size: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            padding: 8px;
+            border-top: none;
+            font-family: 'Nunito', sans-serif;
+        }
+        #formulario{
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-radius: 5px;
+            border: 3px dotted white;
+            background: #fafafa;
+            margin-top: 50px;
+        }
+        input[type=text], input[type=number]{
+            border: 1px solid silver;
+            border-radius: 1px;
+            color: #333;
+            padding: 5px;
+            width: 70%;
+            background: #ccc;
+            display:block;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 15px;
+            font-family: 'Nunito', sans-serif;
+        }
+        select{
+            display:block;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 15px;
+            font-family: 'Nunito', sans-serif;  
+        }
+        button{
+            text-align: center;
+            margin: 0 auto;
+            display:block;
+            background: #3862B2;
+            padding: 15px;
+            border: none;
+            color: white;
+            font-size: 15px;
+            font-family: 'Nunito', sans-serif;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        #creditos{
+            background: #4A567E;
+            text-align: center;
+            max-width: 100%;
+            color: white;
+            font-size: 10px;
+            border-radius: 0 0 5px 5px;
+            padding: 2px;
+            cursor: default;
+            border-top: none;
+            font-family: 'Nunito', sans-serif;
+        }
